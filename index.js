@@ -2,13 +2,15 @@ import 'dotenv/config'
 import express from 'express'
 import path from 'path'
 
+// Live reload server for development
+import livereload from 'livereload'
+import connectLiveReload from 'connect-livereload'
+
+
 
 const app = express()
 const __dirname = process.cwd()
 
-// Live reload server for development
-import livereload from 'livereload'
-import connectLiveReload from 'connect-livereload'
 
 if (process.env.NODE_ENV !== 'production') {
   const liveReloadServer = livereload.createServer()
