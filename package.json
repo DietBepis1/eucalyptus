@@ -7,10 +7,17 @@
   "license": "Mit",
   "type": "module",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.17.2",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   },
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "watch": "nodemon --ext js,html,css"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3"
   }
 }

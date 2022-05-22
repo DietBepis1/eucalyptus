@@ -1,13 +1,14 @@
 ## CSS Grid Study: Koala movie poster
 
-# Install Dependencies
+## Install Dependencies
 ```
 yarn install
 ```
 
-# Run Express server
+## Run Express server
 ```
-yarn dev
+yarn watch (for hot browser reloading in dev)
 ```
 
-# Photo credit: Adam Bignell
+### Photo credit: Adam Bignell
+### Wallpaper credit: https://wallpaperaccess.com; Author: unknown.
